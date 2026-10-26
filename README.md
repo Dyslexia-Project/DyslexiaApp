@@ -148,6 +148,6 @@ Release gates include operation with networking disabled, no account, and an una
 
 `DyslexiaApp` owns the tray app, C++ engine, native adapters, installer, desktop tests, and desktop releases.
 
-`DyslexiaPlatform` owns the React dashboard, account services, Supabase schema, API contracts, subscriptions, and cloud integrations. Shared contracts are versioned and consumed by both repositories; neither repository imports the other's private implementation.
+`DyslexiaPlatform` owns the React dashboard, Java Spring Boot backend, account services, PostgreSQL schema, API contracts, subscriptions, and cloud integrations. Shared contracts are versioned and consumed by both repositories; neither repository imports the other's private implementation.
 
 Build and installation instructions will be added when an executable prototype exists.
